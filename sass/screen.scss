@@ -8,14 +8,14 @@
 
 .main-container {
   background: white;
-  height: 55vh;
-  margin-top: 45vh;
+  margin-top: 450px;
   position: relative;
   z-index: 2;
 }
 
 .header-container {
-  height: 45vh;
+  height: 450px;
+  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
