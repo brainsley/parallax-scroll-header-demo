@@ -34,14 +34,15 @@
 }
 
 .intro {
-  $default-text-shadow-color: rgba(white, 0.4);
+  $default-text-shadow-color: rgba(black, 0.4);
   $default-text-shadow-blur: 1px;
   $default-text-shadow-v-offset: 1px;
 
   @include background-size( cover );
   @include single-text-shadow; 
   
-  background: inline-image('NG-2007-5-16.jpg') no-repeat center center fixed;
+  background: inline-image('6734478205_acb07f76a6_o.jpg') no-repeat center center fixed;
+  color: white;
   height: 360px;
   position: absolute;
   top: 96px;
