@@ -34,7 +34,12 @@
 }
 
 .intro {
+  $default-text-shadow-color: rgba(white, 0.4);
+  $default-text-shadow-blur: 1px;
+  $default-text-shadow-v-offset: 1px;
+
   @include background-size( cover );
+  @include single-text-shadow; 
   
   background: inline-image('NG-2007-5-16.jpg') no-repeat center center fixed;
   height: 360px;
