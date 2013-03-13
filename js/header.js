@@ -27,7 +27,7 @@ Header = (function() {
   Header.prototype.initiateSteps = function() {
     var new_elem, x, _i, _results;
     _results = [];
-    for (x = _i = 0; _i <= 9; x = ++_i) {
+    for (x = _i = 0; _i <= 20; x = ++_i) {
       new_elem = $('<div></div>');
       new_elem.addClass('opac-trigger');
       new_elem.data('opac-factor', x);
