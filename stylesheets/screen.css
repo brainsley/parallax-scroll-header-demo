@@ -1,0 +1,25 @@
+/* line 4, ../sass/screen.scss */
+.header-container {
+  position: fixed;
+  width: 100%;
+}
+
+/* line 9, ../sass/screen.scss */
+.intro {
+  background-color: red;
+  position: absolute;
+  top: 96px;
+  width: 100%;
+}
+/* line 16, ../sass/screen.scss */
+.intro .short,
+.intro .long {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 22, ../sass/screen.scss */
+.intro .short {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}

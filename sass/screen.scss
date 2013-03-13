@@ -1,0 +1,25 @@
+@import "compass";
+@import "compass/css3";
+
+.header-container {
+  position: fixed;
+  width: 100%;
+}
+
+.intro {
+  background-color: red;
+  position: absolute;
+  top: 96px;
+  width: 100%;
+  
+  .short,
+  .long {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .short {
+    @include opacity( 0 );
+  }
+}
