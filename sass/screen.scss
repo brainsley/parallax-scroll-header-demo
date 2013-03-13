@@ -1,6 +1,11 @@
 @import "compass";
 @import "compass/css3";
 
+.header-container,
+.main-container {
+  @include box-shadow( black 0px 0px 10px )
+}
+
 .main-container {
   background: white;
   height: 55vh;
