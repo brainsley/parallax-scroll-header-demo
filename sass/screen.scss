@@ -20,6 +20,12 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  
+  &.sticky-header {
+    height: 200px;
+    z-index: 3;
+  }
+  
   .opac-trigger {
     height: 45px;
     position: absolute;
