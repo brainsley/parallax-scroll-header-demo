@@ -16,7 +16,7 @@ class Header
       offset: 200
   
   initiateSteps: ->
-    for x in [0..9]
+    for x in [0..20]
       new_elem = $( '<div></div>' )
       new_elem.addClass 'opac-trigger'
       new_elem.data 'opac-factor', x
