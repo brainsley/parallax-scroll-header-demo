@@ -1,0 +1,59 @@
+@import "compass";
+@import "compass/css3";
+
+.header-container,
+.main-container {
+  @include box-shadow( black 0px 0px 10px )
+}
+
+.main-container {
+  background: white;
+  margin-top: 450px;
+  position: relative;
+  z-index: 2;
+}
+
+.header-container {
+  height: 450px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+  &.sticky-header {
+    height: 200px;
+    z-index: 3;
+  }
+  
+  .opac-trigger {
+    height: 22.5px;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+.intro {
+  @include background-size( cover );
+  
+  background: inline-image('NG-2007-5-16.jpg') no-repeat center center fixed;
+  height: 360px;
+  position: absolute;
+  top: 96px;
+  width: 100%;
+  
+  .short,
+  .long {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .short { @include opacity( 0 ); }
+  
+  .long {
+    margin: 0 auto;
+    width: 40%;
+  }
+}
