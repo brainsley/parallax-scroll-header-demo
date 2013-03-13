@@ -1,9 +1,20 @@
 @import "compass";
 @import "compass/css3";
 
+.main-container {
+  background: white;
+  height: 55vh;
+  margin-top: 45vh;
+  position: relative;
+  z-index: 2;
+}
+
 .header-container {
+  height: 45vh;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .intro {

@@ -1,24 +1,36 @@
 /* line 4, ../sass/screen.scss */
-.header-container {
-  position: fixed;
-  width: 100%;
+.main-container {
+  background: white;
+  height: 55vh;
+  margin-top: 45vh;
+  position: relative;
+  z-index: 2;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
+.header-container {
+  height: 45vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 20, ../sass/screen.scss */
 .intro {
   background-color: red;
   position: absolute;
   top: 96px;
   width: 100%;
 }
-/* line 16, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .intro .short,
 .intro .long {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 22, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .intro .short {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
