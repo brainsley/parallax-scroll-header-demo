@@ -20,6 +20,11 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  .opac-trigger {
+    height: 45px;
+    position: absolute;
+    width: 1px;
+  }
 }
 
 .intro {
