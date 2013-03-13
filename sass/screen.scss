@@ -34,19 +34,26 @@
 }
 
 .intro {
-  background-color: red;
+  @include background-size( cover );
+  
+  background: inline-image('NG-2007-5-16.jpg') no-repeat center center fixed;
+  height: 360px;
   position: absolute;
   top: 96px;
   width: 100%;
   
   .short,
   .long {
+    left: 0;
     position: absolute;
+    right: 0;
     top: 0;
-    width: 100%;
   }
   
-  .short {
-    @include opacity( 0 );
+  .short { @include opacity( 0 ); }
+  
+  .long {
+    margin: 0 auto;
+    width: 40%;
   }
 }
